@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&display=swap');
+
+*{ 
+    font-family: poppins, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    justify-content: center;
+} 
+
+.sec1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 90px;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.50)
+}
+.sec1 button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.50);
+    background-color: white;
+    border-color: white;
+
+    
+}
+
+.headerbackground{
+    background-image: url("./Images/header.png");
+    font-size: 50px;
+    width: auto;
+    height: 500PX;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;    
+}
+
+.logo img{   
+margin-right: 20px;
+margin-top: 40px;
+}
+
+.sec2 {
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+    color: gray;
+    font-size: 30px
+}
+
+.sec2 button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6CB981;
+    margin-bottom: 20px;
+}
+
+/* brush image pattern */
+.sec3 { 
+    position: absolute;
+    left: 580px;
+    margin-top: -40px;
+}
+
+.gallery {
+display: flex;
+margin: auto;
+justify-content: center;
+margin: 40px;
+}
+
+.gallery div {
+    border: 90px;
+    height: 490px;
+    width: 380px;
+    padding: 20px;
+    margin: 9px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.backimage {
+    background-image: url("Images/bottom.png");
+    width: auto;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+/* brush image pattern */
+.sec4 { 
+    position: absolute;
+    left: 760px;
+    margin-top: -40px;
+}
+
+.test{
+    color: #ffff;
+    margin-top: 80px;
+    text-align: center;
+    width: 25%;
+    margin-left: 30px;
+}
+
+.buttondown {
+    position: absolute;
+    margin-top: -70px;
+    left: 650px;
+
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.50);
+    background-color: white;
+    border-color: white;
+}
+.helpH4{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.Testimonials {
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: gray;
+    text-align: center;
+}
+
+    .customer-card{
+     border: 1px solid #6CB981;
+     display: flex;
+     width: 35%;
+     margin:16px;
+     border-radius: 24px;
+     padding: 10px;
+    }
+
+    .image-container img{
+        width: 80px;
+    }
+
+    .testimonials-content{
+        display:flex;
+        flex-wrap: wrap;
+        color: green;
+    }
+
+    .Contact {
+        background-color: #FCFCFC;
+        height: 400px;
+        margin-top:30;
+    }
+    .contact-text{
+        color: gray;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+.form {
+    width: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 300px;
+}
+input {
+    width: 400px;
+    height: 40px;
+    background-color: #9FDEA9;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 9px;
+}
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border-color: #6CB981;
+    background-color: white;
+    margin-left: 120px;
+}
+
+.icons {
+    margin-left: 250px;
+}
+
+.icon-img {
+    display: flex;
+    margin-left: 550px;
+    justify-content: left;
+    margin-top: -75px;
+}
+
+.icon-img img {
+    margin-right: 10px;
+}
+
+.foot {
+    background-color: #324B29;
+    height: 100px;
+}
